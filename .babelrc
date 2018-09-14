@@ -1,5 +1,11 @@
 {
-  "presets": [
-    "@babel/react"
-  ]
+ "presets": [
+     "env",
+         "react",
+         "env"
+     ],
+ "plugins": [
+     "transform-class-properties",
+     "transform-object-rest-spread"
+     ]
 }
